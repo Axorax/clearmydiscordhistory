@@ -1,0 +1,15 @@
+========================== WARNING ==========================
+
+ClearMyDiscordHistory is not responsible if any damages occur by using the application. By running the application, you willingly take responsibility for any damages that may occur or happen.
+
+ClearMyDiscordHistory is considered as a self-bot and self-bots are against Discord's ToS. Therefore, there is a risk of Discord taking actions against your account.
+
+=========================== USAGE ===========================
+
+After you click the start button, the app might stop responding. This is normal, it takes a long time to get the messages in order to delete them.
+
+You can see the output in the console if you want to get feedback. If you don't want any feedback, use the noconsole version of the app.
+
+After starting the clearing process, you can type "cmdh" on any channel in Discord and it should respond that it is working.
+
+The application will close by itself after it is done.

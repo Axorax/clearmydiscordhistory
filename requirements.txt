@@ -1,0 +1,18 @@
+aiohttp==3.9.5
+aiosignal==1.3.1
+attrs==23.2.0
+certifi==2024.2.2
+charset-normalizer==3.3.2
+colorama==0.4.6
+discord-protos==0.0.2
+discord.py-self @ git+https://github.com/pc111c/discord.py-self.git@e16f555c9e78411b1511fee2273448083d07ab63
+frozenlist==1.4.1
+idna==3.7
+multidict==6.0.5
+pathlib==1.0.1
+protobuf==5.26.1
+requests==2.31.0
+tzdata==2024.1
+tzlocal==5.2
+urllib3==2.2.1
+yarl==1.9.4

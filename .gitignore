@@ -1,0 +1,11 @@
+# Folders
+
+TkForge/
+build/
+dist/
+env/
+
+# Files
+
+*.spec
+*.exe
