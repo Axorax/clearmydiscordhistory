@@ -1,0 +1,12 @@
+# Folders
+
+TkForge/
+build/
+dist/
+*env/
+__pycache__/
+
+# Files
+
+*.spec
+*.exe

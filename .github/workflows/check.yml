@@ -1,0 +1,27 @@
+name: Check
+
+on: 
+  push:
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check if required files exist or not
+        id: check_files
+        run: |
+          missing_files=()
+          [ ! -f LICENSE.txt ] && missing_files+=("LICENSE.txt")
+          [ ! -f preview.png ] && missing_files+=("preview.png")
+          [ ! -f README.md ] && missing_files+=("README.md")
+          [ ! -f requirements.txt ] && missing_files+=("requirements.txt")
+
+          if [ ${#missing_files[@]} -ne 0 ]; then
+            echo "❌ Missing files: ${missing_files[@]}"
+            exit 1
+          else
+            echo "✅ All required files exist."
+          fi
